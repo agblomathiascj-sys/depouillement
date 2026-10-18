@@ -1,0 +1,20 @@
+# Données réelles de l'enquête (confidentielles)
+scans/
+travail/
+resultats/
+*.pdf
+*.csv
+*.xlsx
+!DEMO_depouillement.xlsx
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Fichiers temporaires Office
+~$*
